@@ -10,7 +10,7 @@ Imagine a sushi bar with 5 seats. If you arrive while there is an empty seat, yo
 
 ## Struktura repozitorijuma ## 
 
-**sushi.c**: Glavni izvorni kod koji simulira situaciju u restoranu koristeći niti i semafore. Program kreira 10 gostiju (niti) koji dolaze u restoran i zauzimaju slobodna mesta kako bi jeli sushi. Ako su sva mesta zauzeta, gosti čekaju svoj red dok se neko mesto ne oslobodi.  Upotrebljava se semafor za kontrolu pristupa ograničenom broju stolica.
+**sushi.c**: Glavni izvorni kod koji simulira situaciju u restoranu koristeći niti i semafore. Program kreira 10 gostiju (niti) koji dolaze u restoran i zauzimaju slobodna mjesta kako bi jeli sushi. Ako su sva mjesta zauzeta, gosti čekaju svoj red dok se neko mjesto ne oslobodi.  Upotrebljava se semafor za kontrolu pristupa ograničenom broju stolica.
 **Makefile**: Skripta koja se koristi za kompajliranje izvornog koda.
 **README.md**:  Ovaj dokument pruža osnovne informacije o projektu, uključujući uputstva za kompajliranje i pokretanje programa. 
 
